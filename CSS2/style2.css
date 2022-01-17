@@ -95,7 +95,7 @@ input::placeholder {
   cursor: pointer;
 }
 .whatsapp {
-  background: url("../images2/whatsapp.jpeg") rgba(0, 0, 0, 0);
+  background: url("images2/whatsapp.jpeg") rgba(0, 0, 0, 0);
   background-size: contain;
   background-repeat: no-repeat;
   width: 40px;
@@ -353,7 +353,7 @@ a {
 .section-A {
   min-height: 100vh;
   background: linear-gradient(#000000, rgba(0, 0, 0, 0.308)),
-    url(/images2/Classroom.jpg);
+    url(images2/Classroom.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -519,7 +519,7 @@ nav {
 }
 
 .myImage {
-  background-image: url(/images2/me.jpeg);
+  background-image: url(images2/me.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 250px;

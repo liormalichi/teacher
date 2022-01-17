@@ -16,20 +16,28 @@
   justify-content: center;
   align-items: center;
 }
-
-.reco:hover {
+.img5 {
+  background-image: url("../images2/recommendations/AndyReco.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+/* .reco-inner:hover {
   transform: scale(1.1);
   background-image: linear-gradient(to bottom right, #ff88ef, #46fff3);
-}
+} */
 
-.reco {
-  transition: all 0.3s ease;
+.reco-inner {
+  transition: transform 1.2s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.9s ease;
   margin: 20px;
   background-image: linear-gradient(to bottom right, #ffb3f5, #8bfff7);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   box-shadow: 0px 3px 18px 3px rgba(89, 79, 224, 0.5);
   border-radius: 20px;
   padding: 25px 15px;
@@ -198,15 +206,39 @@ html {
   cursor: pointer;
   position: relative;
 }
-
-.card__inner.is-flipped1 {
+.reco {
+  perspective: 1000px;
+  position: relative;
+}
+.is-flipped1 {
   transform: rotateY(540deg);
 }
-.card__inner.is-flipped2 {
+.is-flipped2 {
   transform: rotateY(180deg);
 }
-.card__inner.is-flipped3 {
+.is-flipped3 {
   transform: rotateY(-540deg);
+}
+
+.reco-is-flipped1 {
+  transform: rotateY(540deg);
+}
+.reco-is-flipped2 {
+  transform: rotateY(180deg);
+}
+.reco-is-flipped3 {
+  transform: rotateY(-540deg);
+}
+.reco-is-flipped4 {
+  transform: rotateY(-540deg);
+}
+.reco-is-flipped5 {
+  transform: rotateY(-540deg);
+}
+.pencil-reco {
+  position: absolute;
+  top: 0%;
+  transform: scale(0.5);
 }
 
 .card__face {
@@ -218,6 +250,27 @@ html {
   overflow: hidden;
   border-radius: 16px;
   box-shadow: 0px 3px 18px 3px rgba(255, 255, 255, 0.3);
+}
+
+.reco__card__face {
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 0px 3px 18px 3px rgba(255, 255, 255, 0.3);
+}
+.reco--back {
+  position: relative;
+  background-color: var(--light);
+  transform: rotateY(180deg);
+  background-color: var(--light);
+  width: 200;
+  min-height: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card__face--front1 {
@@ -242,6 +295,25 @@ html {
   justify-content: center;
   align-items: center;
 }
+.card__face--back{
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.card__face--back1{
+  background-image: url("../images2/recommendations/aviraShelly.jpeg");
+  
+}
+.card__face--back2{
+  background-image: url("../images2/recommendations/heli96.jpeg");
+  
+}
+.card__face--back3{
+  background-image: url("../images2/recommendations/");
+  
+}
+
 .achive1 {
   font-size: 25px;
   color: whitesmoke;
@@ -255,9 +327,9 @@ html {
 }
 .commas {
   transform: scale(0.2);
-  position: relative;
-  top: 0%;
-  right: 0;
+  position: absolute;
+  bottom: -5%;
+  left: 0;
   z-index: 1;
 }
 .human {
@@ -357,6 +429,7 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  position: relative;
 }
 
 .section-C {
@@ -445,7 +518,6 @@ nav {
   position: absolute;
   top: 19%;
   right: 50%;
-  position: absolute;
   align-items: center;
   transform: translateX(50%);
   color: white;
@@ -514,7 +586,7 @@ nav {
   letter-spacing: 0.15em; /* Adjust as needed */
   animation: typing1 1s steps(10, end) forwards,
     blink-caret 0.75s step-end forwards;
-  width: 380px;
+  width: fit-content;
   font-size: 70px;
 }
 
@@ -525,12 +597,16 @@ nav {
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  left: 10px;
-  top: -100px;
-  position: relative;
+  right: 10px;
+  top: 200px;
+  position: absolute;
   background-color: #fff;
   border: 5px solid #fff;
   object-fit: cover;
+}
+
+.im-container {
+  padding-top: 250px;
 }
 .Im-Lior-Malichi {
   color: rgba(255, 255, 255, 0);
@@ -625,19 +701,31 @@ nav {
   }
 
   .section-A {
-    min-height: 90vh;
+    min-height: 100vh;
   }
+
   .sentances {
-    background-color: rgba(0, 0, 0, 0.13);
     position: absolute;
-    top: 30%;
-    text-align: center;
-    position: absolute;
+    top: 20%;
+    right: 50%;
     align-items: center;
+    transform: translateX(50%);
     color: white;
   }
+  .myImage {
+    position: absolute;
+    right: 50%;
+    top: 35%;
+    transform: translateX(50%);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 5px solid #fff;
+    object-fit: cover;
+  }
   .hey {
-    font-size: 35px;
+    font-size: 45px;
     width: 130px;
   }
   @keyframes typing1 {
@@ -651,7 +739,7 @@ nav {
 
   .Im-Lior-Malichi {
     width: 450px;
-    font-size: 13px;
+    font-size: 11px;
     margin: 0px;
   }
   @keyframes typing2 {

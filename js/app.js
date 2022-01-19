@@ -6,11 +6,11 @@ const reco__innerA1 = document.querySelector(".reco__innerA1")
 const reco__innerA2 = document.querySelector(".reco__innerA2")
 const reco__innerA3 = document.querySelector(".reco__innerA3")
 
-const recoCard1 = document.querySelector(".reco-inner1")
-const recoCard2 = document.querySelector(".reco-inner2")
-const recoCard3 = document.querySelector(".reco-inner3")
-const recoCard4 = document.querySelector(".reco-inner4")
-const recoCard5 = document.querySelector(".reco-inner5")
+// const recoCard1 = document.querySelector(".reco-inner1")
+// const recoCard2 = document.querySelector(".reco-inner2")
+// const recoCard3 = document.querySelector(".reco-inner3")
+// const recoCard4 = document.querySelector(".reco-inner4")
+// const recoCard5 = document.querySelector(".reco-inner5")
 const clickMeCard1 = document.querySelector(".clickMeCard1")
 const clickMeCard2 = document.querySelector(".clickMeCard2")
 const clickMeCard3 = document.querySelector(".clickMeCard3")
@@ -37,20 +37,21 @@ card3.addEventListener("click", function(){
 
 reco__innerA1.addEventListener("click", function(){    
     clickMeReco1.innerHTML = ""
-    reco__innerA1.classList.toggle("is-flipped3");
-});reco__innerA2.addEventListener("click", function(){    
-    clickMeReco2.innerHTML = ""
-    reco__innerA2.classList.toggle("is-flipped3");
-});reco__innerA3.addEventListener("click", function(){    
-    clickMeReco3.innerHTML = ""
-    reco__innerA3.classList.toggle("is-flipped3");
-});
+    reco__innerA1.classList.toggle("is-flipped3")});
 
-recoCard1.addEventListener("click", function(){recoCard1.classList.toggle("reco-is-flipped1")})
-recoCard2.addEventListener("click", function(){recoCard2.classList.toggle("reco-is-flipped2")})
-recoCard3.addEventListener("click", function(){recoCard3.classList.toggle("reco-is-flipped3")})
-recoCard4.addEventListener("click", function(){recoCard4.classList.toggle("reco-is-flipped4")})
-recoCard5.addEventListener("click", function(){recoCard5.classList.toggle("reco-is-flipped5")})
+reco__innerA2.addEventListener("click", function(){    
+    clickMeReco2.innerHTML = ""
+    reco__innerA2.classList.toggle("is-flipped3")});
+
+reco__innerA3.addEventListener("click", function(){    
+    clickMeReco3.innerHTML = ""
+    reco__innerA3.classList.toggle("is-flipped3")});
+
+// recoCard1.addEventListener("click", function(){recoCard1.classList.toggle("reco-is-flipped1")})
+// recoCard2.addEventListener("click", function(){recoCard2.classList.toggle("reco-is-flipped2")})
+// recoCard3.addEventListener("click", function(){recoCard3.classList.toggle("reco-is-flipped3")})
+// recoCard4.addEventListener("click", function(){recoCard4.classList.toggle("reco-is-flipped4")})
+// recoCard5.addEventListener("click", function(){recoCard5.classList.toggle("reco-is-flipped5")})
 
 
 

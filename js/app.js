@@ -37,15 +37,15 @@ card3.addEventListener("click", function(){
 
 reco__innerA1.addEventListener("click", function(){    
     clickMeReco1.innerHTML = ""
-    reco__innerA1.classList.toggle("is-flipped3")});
+    reco__innerA1.classList.toggle("reco-is-flipped1")});
 
 reco__innerA2.addEventListener("click", function(){    
     clickMeReco2.innerHTML = ""
-    reco__innerA2.classList.toggle("is-flipped3")});
+    reco__innerA2.classList.toggle("reco-is-flipped2")});
 
 reco__innerA3.addEventListener("click", function(){    
     clickMeReco3.innerHTML = ""
-    reco__innerA3.classList.toggle("is-flipped3")});
+    reco__innerA3.classList.toggle("reco-is-flipped3")});
 
 // recoCard1.addEventListener("click", function(){recoCard1.classList.toggle("reco-is-flipped1")})
 // recoCard2.addEventListener("click", function(){recoCard2.classList.toggle("reco-is-flipped2")})

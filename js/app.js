@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     // recoCard4.addEventListener("click", function(){recoCard4.classList.toggle("reco-is-flipped4")})
     // recoCard5.addEventListener("click", function(){recoCard5.classList.toggle("reco-is-flipped5")})
     
-    
+    console.log("fdf")
     
     const navSlide = () => {
         const burger = document.querySelector(".burger");

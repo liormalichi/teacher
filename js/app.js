@@ -21,9 +21,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
     const clickMeReco3 = document.querySelector(".clickMeReco3")
     
     
-    reco__innerA1.addEventListener("click", function(){    
+    reco__innerA1.addEventListener("click", function(){  
+        console.log("reco__innerA1")  
         clickMeReco1.innerHTML = ""
         reco__innerA1.classList.toggle("reco-is-flipped1")
+        console.log(reco__innerA1.classList)  
+
     });
     
     reco__innerA2.addEventListener("click", function(){    
@@ -37,8 +40,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
     });
     
     card1.addEventListener("click", function(){
+        console.log("card1")
         clickMeCard1.innerHTML = ""
         card1.classList.toggle("is-flipped1");
+        console.log(card1.classList)  
+
     });
     
     card2.addEventListener("click", function(){

@@ -121,7 +121,7 @@ input::placeholder {
 .whatsapp {
   background: url("../images2/whatsapp.jpeg") rgba(0, 0, 0, 0);
   background-size: contain;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;  
   width: 40px;
   height: 40px;
   border-radius: 50%;

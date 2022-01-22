@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function(event) { 
+// document.addEventListener("DOMContentLoaded", function(event) { 
     const card1 = document.querySelector(".card__inner1")
     const card2 = document.querySelector(".card__inner2")
     const card3 = document.querySelector(".card__inner3")
@@ -107,6 +107,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
         
     }
     
-      });
+    //   });
   
   

@@ -29,7 +29,9 @@
 }
 .price-inner:hover {
   transform: scale(1.1);
-  background-image: linear-gradient(to bottom right, #ff88ef, #46fff3);
+  color: white;
+  font-size: 20px;
+  background-image: linear-gradient(to bottom, #f54b4ba2, #3455ec);
 }
 .price-inner {
   transition: transform 1.2s;
@@ -38,16 +40,56 @@
   position: relative;
   transition: all 0.9s cubic-bezier(0.21, 0.18, 0, 1.13);
   margin: 20px;
-  background-image: linear-gradient(to bottom right, #ffb3f5, #8bfff7);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  background-image: linear-gradient(to bottom, #ff7a7aa2, #7991ff);
   box-shadow: 0px 3px 18px 3px rgba(89, 79, 224, 0.5);
   border-radius: 20px;
   padding: 25px 15px;
+  position: relative;
+}
+.price-front {
+  position: absolute;
+  height: 150px;
+}
+.price-inner1,
+.price-inner3 {
   min-height: 400px;
   width: 250px;
-  position: relative;
+}
+.price-inner2 {
+  min-height: 450px;
+  width: 270px;
+}
+.price-inner2,
+.price-inner1,
+.price-inner3 {
+  margin-top: 15px;
+}
+
+.price-img {
+  bottom: 5px;
+}
+.home-img {
+  width: 130px;
+  height: 130px;
+  bottom: 5px;
+}
+.waze-img {
+  width: 120px;
+  height: 200px;
+  bottom: 5px;
+}
+.zoom-img {
+  width: 130px;
+  height: 130px;
+  bottom: 5px;
+}
+
+.top-header {
+  color: white;
+  top: 25px;
+  background-color: red;
+  border-radius: 1rem;
+  width: 100%;
 }
 .reco-inner {
   transition: transform 1.2s;
@@ -932,8 +974,8 @@ nav {
     object-fit: cover;
   }
   .hey {
-    font-size: 45px;
-    width: 130px;
+    font-size: 40px;
+    width: 140px;
   }
   @keyframes typing1 {
     from {
@@ -975,7 +1017,7 @@ nav {
     transition: all 0.5s ease-in;
   }
   .nav-links {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .nav-links li {

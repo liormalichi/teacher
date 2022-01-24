@@ -59,13 +59,20 @@
               <button class="nav-button" onclick="toSection(1)">בית</button>
             </li>
             <li>
-              <button class="nav-button" onclick="toSection(2)">עליי</button>
+              <button class="nav-button" onclick="toSection(2)">
+                המלצות מאתרים
+              </button>
             </li>
             <li>
-              <button class="nav-button" onclick="toSection(3)">המלצות</button>
+              <button class="nav-button" onclick="toSection(3)">
+                צילומי מסך
+              </button>
             </li>
             <li>
-              <button class="nav-button" onclick="toSection(4)">צרו קשר</button>
+              <button class="nav-button" onclick="toSection(4)">מחירים</button>
+            </li>
+            <li>
+              <button class="nav-button" onclick="toSection(5)">צור קשר</button>
             </li>
           </ul>
         </nav>
@@ -179,7 +186,7 @@
       <section id="3" class="section-C">
         <div class="why-me-box">
           <div class="why__me">
-            <h3>אז למה לבחור בי?</h3>
+            <h3><center>אז למה לבחור בי?</center></h3>
           </div>
           <div class="cards__grid">
             <div class="card1">
@@ -239,53 +246,66 @@
       <section id="4">
         <div class="prices-headline">
           <h2>
-            <center>
-              "לכל ילד מגיעה ההזדמנות להצליח, אם ינצל אותה זו החלטה שלו"
-            </center>
+            <center>כל אחד יכול להגיע להצלחה, מטרתי להקל את הדרך לשם</center>
           </h2>
         </div>
         <div class="prices">
           <div class="price price1" onclick="toSection(5)">
-            <div class="price-inner reco-inner1">
-              <div class="reco--front recofron1">
-                <img class="pencil-reco" src="./images2/Pencil.png" />
-                <div class="top-header-Zoom">
-                  <center>לחוששי קורונה ומרוחקים</center>
+            <div class="price-inner price-inner1">
+              <div class="top-header-Zoom top-header">
+                <center>לחוששי קורונה ומרוחקים</center>
+              </div>
+              <div class="price--front recofron1">
+                <div class="header-Zoom">
+                  <center>דרך הזום</center>
                 </div>
-                <div class="header-Zoom"><center>דרך הזום</center></div>
                 <div class="recoText">
                   <center>₪110</center>
-                  <img class="commas" src="./images2/commas.svg" />
+                </div>
+                <div class="price-img">
+                  <center>
+                    <img class="zoom-img" src="./images2/zoom1.png" />
+                  </center>
                 </div>
               </div>
             </div>
           </div>
           <div class="price price2" onclick="toSection(5)">
-            <div class="price-inner reco-inner2">
-              <div class="reco--front reco--front2">
-                <img class="pencil-reco" src="./images2/Pencil.png" />
+            <div class="price-inner price-inner2">
+              <div class="top-header-Zoom top-header">
+                <center>המשתלם ביותר</center>
+              </div>
+              <div class="price--front reco--front2">
                 <div class="header-my-home">
-                  <div class="top-header-Zoom"><center></center></div>
                   <center>בבית שלי</center>
                 </div>
                 <div class="recoText">
                   <center>₪120</center>
-                  <img class="commas" src="./images2/commas.svg" />
+                </div>
+                <div class="price-img">
+                  <center>
+                    <img class="home-img" src="./images2/home.png" />
+                  </center>
                 </div>
               </div>
             </div>
           </div>
           <div class="price price3">
             <div class="price-inner price-inner3" onclick="">
-              <div class="reco--front reco--front3">
-                <img class="pencil-reco" src="./images2/Pencil.png" />
-                <span class="fa fa-star"></span>
+              <div class="top-header-Zoom top-header">
+                <center>פרמיום</center>
+              </div>
+              <div class="price--front reco--front3">
                 <div class="header-my-home">
                   <center>מגיע עד אליכם</center>
                 </div>
                 <div class="recoText">
-                  <center>* ₪130</center>
-                  <img class="commas" src="./images2/commas.svg" />
+                  <center>* ₪140</center>
+                </div>
+                <div class="price-img">
+                  <center>
+                    <img class="waze-img" src="./images2/waze.png" />
+                  </center>
                 </div>
               </div>
             </div>
@@ -293,6 +313,7 @@
         </div>
       </section>
     </div>
+
     <!-- <footer id="4">
       <div class="footer-up">
         <form action="/">
@@ -318,9 +339,8 @@
         <div class="linkedIn"></div>
       </div>
     </footer> -->
-    <section>
-      <a href="https://wa.me/972542320748"><div class="whatsapp"></div></a>
-    </section>
+    <section id="5">צור קשר</section>
+    <a href="https://wa.me/972542320748"><div class="whatsapp"></div></a>
     <script src="/js/app.js"></script>
   </body>
 </html>

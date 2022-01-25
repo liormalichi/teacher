@@ -190,7 +190,6 @@ input::placeholder {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
 }
 
 .section5container {
@@ -198,6 +197,7 @@ input::placeholder {
   min-height: 100%;
   background-color: rgb(202, 10, 10);
   box-shadow: 0px 3px 18px 3px rgba(255, 255, 255, 0.562);
+  z-index: 3;
 }
 
 .contactMe {
@@ -262,6 +262,7 @@ input::placeholder {
   bottom: 15px;
   right: 15px;
   animation: whatsapp 0.9s infinite alternate;
+  z-index: 1;
 }
 
 @keyframes whatsapp {
@@ -948,6 +949,14 @@ nav {
     overflow-x: hidden;
   }
 
+  .phone {
+    width: 120px;
+    height: 120px;
+  }
+  .whatsappContact {
+    width: 100px;
+    height: 100px;
+  }
   .whatsapp {
     width: 50px;
     height: 50px;

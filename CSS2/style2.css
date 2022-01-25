@@ -9,6 +9,7 @@
   font-family: "Alef", sans-serif;
   font-family: "Varela Round", sans-serif;
 }
+
 .prices {
   display: flex;
   flex-direction: row;
@@ -183,6 +184,73 @@ input::placeholder {
   all: unset;
   cursor: pointer;
 }
+
+#5 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.section5container {
+  width: 100%;
+  min-height: 100%;
+  background-color: rgb(202, 10, 10);
+  box-shadow: 0px 3px 18px 3px rgba(255, 255, 255, 0.562);
+}
+
+.contactMe {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.phone {
+  background: url("../images2/phone.png") rgba(0, 0, 0, 0);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  animation: whatsapp 0.9s infinite alternate;
+  /* align-self: start; */
+}
+.whatsappContact {
+  background: url("../images2/whatsapp.png") rgba(0, 0, 0, 0);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 290px;
+  height: 290px;
+  border-radius: 50%;
+  animation: whatsapp 0.9s infinite alternate;
+}
+.contactHeader {
+  background-color: #e495d9a9;
+  text-align: center;
+  box-shadow: 0px 3px 5px 3px rgba(255, 255, 255, 0.562);
+  margin: 45px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  color: var(--light);
+  letter-spacing: 4px;
+  z-index: 2;
+}
+
+.phoneNumber {
+  background-color: #23a83923;
+  align-self: center;
+  text-align: center;
+  font-size: 32px;
+}
+
+.contactMe {
+  height: 500px;
+  position: relative;
+  background-color: rgb(228, 169, 169);
+}
+
 .whatsapp {
   background: url("../images2/whatsapp.png") rgba(0, 0, 0, 0);
   background-size: contain;

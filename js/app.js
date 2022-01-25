@@ -54,7 +54,7 @@
     card3.addEventListener("click", function(){    
         clickMeCard3.innerHTML = ""
         card3.classList.toggle("is-flipped3");
-    });
+    }); 
     
     
     
